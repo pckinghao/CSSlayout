@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .container {
+            height: 200px;
+            border: 1px solid black;
+            background: gray;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .container:before{
+            content: '';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 8px 10px;
+            text-decoration: none;
+            color: #000;
+            border-radius: 3px;
+            background-color: red;
+            color: white;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="" class="button">按钮1</a>
+        <a href="" class="button">按钮2</a>
+        <a href="" class="button">按钮3</a>
+    </div>
+</body>
+</html>
