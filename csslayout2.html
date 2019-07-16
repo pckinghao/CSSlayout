@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .content::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        .menu {
+            width: 200px;
+            height: 500px;
+            background: red;
+            float: left;
+        }
+
+        .aside {
+            width: 200px;
+            height: 500px;
+            background: blue;
+            float: right;
+        }
+
+        .main {
+            margin-left: 210px;
+            margin-right: 210px;
+            height: 700px;
+            background: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="menu"></div>
+        <div class="aside"></div>
+        <div class="main"></div>
+    </div>
+</body>
+</html>
